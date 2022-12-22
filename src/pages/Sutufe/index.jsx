@@ -331,6 +331,59 @@ function Stuvet() {
                     </Grid>
                 </Grid>
             </Box>
+            <Box className="wat_vi" sx={{
+                display: "flex",
+                padding: "120px 24px",
+                alignItems: "center"
+            }}>
+                <Grid container alignItems="center" justifyContent="center" >
+                    <Grid item xs={11} sm={9} md={8} lg={6} xl={6}>
+                        <Box sx={{
+                            width: "100%",
+                            textAlign: "center",
+                            justifyContent: "center"
+                        }}>
+                            <Typography sx={{
+                                marginBottom: "16px",
+                                color: "#fff",
+                                fontSize: "13px",
+                                lineHeight: "16px",
+                                fontWeight: 400
+                            }}>
+                                About The Shop
+                            </Typography>
+                            <Typography variant="h2" sx={{
+                                marginBottom: "16px",
+                                color: "#fff",
+                                fontSize: "36px",
+                                lineHeight: "44px",
+                                fontWeight: 400
+                            }}>
+                                Watch Our Story
+                            </Typography>
+                            <Typography sx={{
+                                marginBottom: "28px",
+                                color: "#fff",
+                                fontSize: "14px",
+                                lineHeight: "24px",
+                            }}>
+                                There is no magic formula to write perfect ad copy. It is based on a number of
+                                factors, including ad placement,
+                                demographic, even the consumer’s mood.
+                            </Typography>
+                            <Box sx={{
+                                marginLeft: { xl: "43%", lg: "41%", md: "40%", sm: "40%", xs: "35%" }
+                            }}>
+                                <a href="#" className="wat_a">
+                                    <img src="https://assets.website-files.com/5badda2935e11303a89a461e/5bae5eec4b504f1c4031af32_play-icon-white.svg" alt="" />
+                                </a>
+                            </Box>
+                        </Box>
+
+                    </Grid>
+                </Grid>
+
+            </Box>
         </>
     )
 }
