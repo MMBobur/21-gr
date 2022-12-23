@@ -2,7 +2,7 @@
     padding: 0 !important;
 }
 .css-c56oh-MuiPaper-root-MuiAppBar-root  {
-    background: none !important;
+    background: #fff !important;
     box-shadow: 1px 1px 15px 0 rgb(0 0 0 / 12%) !important;
 }
 #NavTepSt{
@@ -16,7 +16,7 @@
     border-radius: 50%;
     transition: background-color 300ms ease;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
 }
 #NavTepSt:hover{
     background-color: rgba(0, 0, 0, 0.08);

@@ -1,0 +1,70 @@
+#Home{
+    background-image: url(../img/download.jpg);
+    background-position: 50% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 81vh;
+    margin-top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hometrot{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 1;
+    width: 100%;
+    max-width: 570px;
+    padding: 56px 48px;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+}
+#homeyoz1{
+    margin-bottom: 16px;
+    color: #a5c926;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+}
+#homeyoz2{
+    font-family: 'Varela Round', sans-serif !important;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 20px !important;
+}
+#homeyoz3{
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    background-color: #a5c926;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+#homeyoz3:hover{
+    box-shadow: 0 8px 8px -4px rgb(165 201 38 / 50%);
+    transform: scale(1.05);
+    height: 50px;
+}
+@media screen and (max-width: 990px) {
+    #hometrot{
+        max-width: 480px;
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #hometrot{
+        max-width: 92%;
+        padding: 38px;
+        margin-left: 4%;
+    }
+}

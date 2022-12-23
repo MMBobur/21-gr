@@ -9,12 +9,9 @@ import Link from '@mui/material/Link';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FaTwitter,FaFacebookSquare,FaInstagram,FaYoutube,FaPinterestSquare } from "react-icons/fa";
 
 const pages = ['Catalog', 'Delivery', 'About', 'Contacts'];
 const settings = ['Catalog', 'Delivery', 'About', 'Contacts'];
@@ -73,19 +70,19 @@ function Navbar() {
                     </Box>
                     <Box sx={{ display: 'flex', width: '100%', justifyContent: 'right' }}>
                         <Typography id='NavTepSt'>
-                            <AdbIcon />
+                            <FaTwitter />
                         </Typography>
                         <Typography id='NavTepSt'>
-                            <AdbIcon />
+                            <FaFacebookSquare />
                         </Typography>
                         <Typography id='NavTepSt'>
-                            <AdbIcon />
+                            <FaInstagram />
                         </Typography>
                         <Typography id='NavTepSt'>
-                            <AdbIcon />
+                            <FaPinterestSquare />
                         </Typography>
                         <Typography id='NavTepSt'>
-                            <AdbIcon />
+                            <FaYoutube />
                         </Typography>
                     </Box>
                 </Box>
