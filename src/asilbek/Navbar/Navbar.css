@@ -1,0 +1,85 @@
+.css-19r6kue-MuiContainer-root{
+    padding: 0 !important;
+}
+.css-c56oh-MuiPaper-root-MuiAppBar-root  {
+    background: #fff !important;
+    box-shadow: 1px 1px 15px 0 rgb(0 0 0 / 12%) !important;
+}
+#NavTepSt{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 300ms ease;
+    cursor: pointer;
+    font-size: 18px;
+}
+#NavTepSt:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+#navBoshYoz{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #333333;
+    padding: 0 15px 0 0;
+}
+#NavYozLin{
+    font-family: 'Open Sans', sans-serif;
+    color: #111;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 12px 18px;
+    border-radius: 16px;
+    transition: color 300ms ease, background-color 300ms ease, box-shadow 300ms ease;
+    text-decoration: none;
+}
+#NavYozLin:hover{   
+    text-decoration: underline !important;
+}
+#navYozIc{
+    height: 20px;
+    min-width: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    background-color: #a5c926;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    left: 0 !important;
+    top: 95px !important;
+    box-shadow: none !important;
+    border-top: 1px solid #e5e5e5 !important;
+    border-radius: 0px !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    border-radius: 0 !important;
+    padding: 0 !important;
+    border-radius: 0px !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+    padding: 16px 24px !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+    border-radius: 0px !important;
+}
+@media screen and (max-width:850px) {
+    #navYozIc{
+        margin-right: 15px;
+    }
+}
