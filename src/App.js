@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import Instagram from "./instagram";
 import Simple from "./Simple";
 
@@ -7,6 +8,7 @@ function App() {
    <div>
     <Simple/>
     <Instagram/>
+    <Footer/>
    </div>
   );
 }
