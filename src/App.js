@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import Stuvet from './pages/Sutufe';
 import Navbar from './asilbek/Navbar/Navbar';
 import Home from './asilbek/Home/Home';
 import Animals from './asilbek/Animals/Animals';
@@ -8,14 +10,15 @@ import Simple from "./Simple";
 
 function App() {
   return (
-    <div>
+    <>
+      <Stuvet/>
       <Navbar />
       <Home />
       <Animals />
       <Simple/>
       <Instagram/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
